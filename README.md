@@ -15,3 +15,6 @@ Hello World Javainuse
 
 - Create Consumer <br>
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic narendra-topic --from-beginning
+
+- View List of topics <br>
+.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
